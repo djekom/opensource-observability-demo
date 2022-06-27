@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Klopac documentation
+    url: https://kloia.atlassian.net/wiki/spaces/OBS/pages/10256574/Manual+Auto+Instrumentation+Telemetry+Data
+    about: View the documentation of demo application to simulate observability pipeline
