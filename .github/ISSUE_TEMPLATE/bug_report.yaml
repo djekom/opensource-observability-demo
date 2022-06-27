@@ -1,0 +1,29 @@
+name: Bug Report Template
+description: Report a bug you've found
+title: "[Bug]: "
+labels: "bug"
+body:
+- type: markdown
+  attributes:
+     value: |
+       Thanks for taking the time to fill out this bug report!
+       for more detail -> https://www.youtube.com/watch?v=qQE1BUkf2-s
+- type: textarea
+  attributes:
+    label: What happened?
+    description: Also tell us, what did you expect to happen?
+    placeholder: Tell us what you see.
+  validations:
+    required: true
+- type: dropdown
+  id: download
+  attributes:
+    label: Which component do you think this issue belongs to ?
+    options:
+      - Entrypoint
+      - Provider
+      - Validator
+      - Controller
+      - Finalizer
+    validations:
+      required: true
